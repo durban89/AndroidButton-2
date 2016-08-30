@@ -12,30 +12,42 @@
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:drawableTop="@drawable/face1" android:text="按钮1"/>
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/face1"
+        android:text="按钮1"/>
+
     <Button
         android:layout_below="@+id/button1"
         android:id="@+id/button2"
         android:text="按钮2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:drawableTop="@drawable/face2" android:drawablePadding="30dp"/>
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/face2"
+        android:drawablePadding="30dp"/>
+
     <Button
         android:layout_below="@+id/button2"
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:drawableTop="@drawable/face3" android:drawableLeft="@drawable/face4"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/face3"
+        android:drawableLeft="@drawable/face4"
         android:text="按钮3"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:drawableRight="@drawable/face4" android:drawablePadding="30dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/face4"
+        android:drawablePadding="30dp"
         android:text="按钮4"/>
 
     <Button
+        android:id="@+id/button"
         android:layout_below="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:id="@+id/button" android:layout_marginTop="10dp" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
 
 </RelativeLayout>
